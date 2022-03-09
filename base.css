@@ -5,34 +5,38 @@
 
 body {
   margin: 0px;
-  background-color: green !important;
+  background-color: black;
   background: linear-gradient(
     0deg,
     rgba(30, 30, 30, 1) 17%,
     rgba(108, 108, 108, 1) 98%
   );
-  width: 100%;
-  height: 1vh;
   background-attachment: fixed;
 }
 
-#canvas {
-  position: relative;
+#canvas-container {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 10%;
   display: block;
   width: 400px;
   height: 600px;
-  background-color: gray;
+}
+
+#canvas {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+@media only screen and (max-width: 600px) {
+  #canvas {
+    margin-left: 15px;
+  }
+}
+
 #colors {
-  position: relative;
   margin-left: auto;
   margin-right: auto;
   display: block;
