@@ -6,7 +6,7 @@
         "removeComments": true,
         "preserveConstEnums": true,
         "sourceMap": true,
-        "out": "./project.js"
+        "out": "./lonelyLandscapes.js"
     },
     "include": [
         "**/*"

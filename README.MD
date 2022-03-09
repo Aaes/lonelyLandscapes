@@ -1,17 +1,3 @@
-## Typescript starter
+## Lonely landscapes
 
-This a boilerplate typescript project to quickly clone when a starting a new project.
-It includes
-
-- A basic HTML page (`index.html`)
-- A basic CSS file (`base.css`)
-- An empty Typescript file (`project.ts`)
-- A stanard prettier configuration file (`.prettierrc`)
-
-## Things to change
-
-HTML file
-
-- The title, Javascript file path and CSS file path is directly in here
-  tsconfig
-- Contains the output file name, and can be changed here
+Based on the reddit post https://www.reddit.com/r/generative/comments/t5ii4h/lonely_landscapes_p5js/ by https://www.reddit.com/user/asalga/
